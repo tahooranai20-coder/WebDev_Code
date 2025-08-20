@@ -1,0 +1,96 @@
+/*
+
+- html element
+- class
+- id
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* 
+.common_p_styles {
+  background-color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: fit-content;
+}
+
+.set1_paras {
+  font-size: 40px;
+  color: blueviolet;
+}
+
+.set2_paras {
+  color: aqua;
+}
+
+#para_1_2 {
+  background-color: transparent;
+} */
+
+.main-contianer {
+  background-image: url("../assets/images/home-bg.webp");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: fit-content; */
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.logoImg {
+  height: auto;
+  width: 227px;
+}
+
+.hero-image-container {
+  /* border: 1px solid red; */
+  width: 600px;
+}
+
+.kaidoImg {
+  height: auto;
+  width: 100%;
+}
+
+/* FLEX BOX */
+.box1,
+.box2 {
+  height: 200px;
+  width: 300px;
+}
+
+.b1_1 {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+}
+
+.box1 {
+  background-color: red;
+  /* position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.box2 {
+  background-color: blue;
+}
+
+.box-container {
+  height: 600px;
+  border: 2px solid purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
