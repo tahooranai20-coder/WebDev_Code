@@ -33,18 +33,27 @@
 } */
 
 .main-contianer {
-  background-image: url("../assets/images/home-bg.webp");
+  background-image: url("../../assets/images/home-bg.webp");
   background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: fit-content; */
 }
 
 .left-container {
   display: flex;
   flex-direction: column;
 }
+
+.right-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .logoImg {
   height: auto;
