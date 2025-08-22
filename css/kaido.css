@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 /*
 
 - html element
@@ -10,6 +12,13 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: #2d2850;
+  font-size: 14px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* 
@@ -31,39 +40,55 @@
 #para_1_2 {
   background-color: transparent;
 } */
-
 .main-contianer {
-  background-image: url("../../assets/images/home-bg.webp");
+  background-image: url("../assets/images/home-bg.webp");
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-size: cover;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.left-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.right-container {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.logoImg {
-  height: auto;
-  width: 227px;
+  /* height: fit-content; */
 }
 
 .hero-image-container {
   /* border: 1px solid red; */
+  width: 500px;
+}
+
+/* LEFT CONTAINER */
+
+.left-container {
+  display: flex;
+  flex-direction: column;
   width: 600px;
 }
+
+.Search_anime_input {
+  outline: none;
+  border: none;
+  /* font-size: 20px; */
+  padding: 0 20px;
+  height: 50px;
+  border-radius: 40px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.logoImg {
+  height: auto;
+  width: 227px;
+  margin-bottom: 30px;
+}
+
+.top_search_span {
+  font-weight: 500;
+}
+
+.top_search_urls {
+  text-decoration: none;
+}
+
+/* RIGHT CONTAINER */
 
 .kaidoImg {
   height: auto;
@@ -77,11 +102,7 @@
   width: 300px;
 }
 
-.b1_1 {
-  height: 100px;
-  width: 100px;
-  background-color: black;
-}
+/* GENERIC */
 
 .box1 {
   background-color: red;
@@ -97,9 +118,24 @@
 
 .box-container {
   height: 600px;
-  border: 2px solid purple;
+  /* border: 2px solid purple; */
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  /* flex-direction: column; */
 }
+
+.blue-contianer {
+  border: 4px solid blue;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+
+.padding-box {
+  width: fit-content;
+  border: 3px solid blueviolet;
+  padding: 30px;
+  margin: 40px;
+  /* margin: 10px 20px 30px 40px; */
+}
+
